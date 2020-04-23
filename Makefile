@@ -1,5 +1,5 @@
 SHELL=/bin/bash
-hello:*c
+Hello:*c
 	gcc -Werror -Wall $^ -o $@
 test:
-	test './hello == helloworld'
+	test './Hello == Hello_world02'
